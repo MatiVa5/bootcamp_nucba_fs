@@ -1,0 +1,55 @@
+body {
+    background-color: lightgoldenrodyellow;
+    padding: 2em;
+}  
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.header {
+
+    font-size: 16px;
+    background-color: cyan; 
+    text-align: center;
+}
+
+.aside1 {
+    background-color: green;
+
+}
+
+.aside2 {
+    background-color: hotpink;
+}
+
+.footer {
+    background-color: white;
+}
+
+.main {
+    text-align: left;
+    background: deepskyblue;
+}
+
+@media all and (min-width: 600px) {
+    .aside { flex: 1,0,0; }
+}
+@media all and (min-width: 800px) {
+
+    .main   { flex: 3.0px; }
+    .aside1 { order: 1;}
+    .main   { order: 2;}
+    .aside2 { order: 3;}
+    .footer { order: 4;}
+}
+
+
