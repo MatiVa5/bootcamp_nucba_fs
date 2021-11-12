@@ -1,0 +1,84 @@
+:root{
+--Darkcyan: hsl(185, 75%, 39%);
+--Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+--Darkgrayishblue: hsl(227, 10%, 46%);
+--Darkgray: hsl(0, 0%, 59%);
+}
+
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+  background-color: var(--Darkcyan);
+  
+}
+
+img{
+border-radius: 15px 15px 0 0;
+
+}
+
+
+span{
+color: var(--Darkgray);
+} 
+
+.london{
+    color: var(--Darkgray);
+}
+
+.victor{
+    
+
+margin: 20px 0px 10px;
+}
+
+.fotovictor {
+    border-radius: 50%;
+    
+}
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 175px;
+    background-color: white;
+    border-radius: 15px;
+   
+}
+
+
+.linea{
+    width: 350px;
+    color: var(--Darkgray);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-footer-items{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+h4{
+    color: var(--Darkgray);
+}
+
+.attribution {
+    font-size: 11px; text-align: center; margin-top: 20px; 
+}
+.attribution a {
+    color: var(--Darkgrayishblue);
+}
